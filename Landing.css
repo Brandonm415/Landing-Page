@@ -1,0 +1,254 @@
+body {
+	background: url(https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+html {
+	height: 100%;
+}
+
+.head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500px;
+	margin-top: 10%;
+	font-family: Oswald;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);			 
+}
+
+#line {
+	width: 25%;
+	border-color: black;
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Oswald;
+}
+
+section.pricing {
+  background: #eee;
+  margin-top: 25%;
+  padding: 5%;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #F0F8FF;
+  padding: 5%;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+  border-color: black;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+#pricetag {
+	text-align: center;
+	margin: 5%; 
+	font-family: Oswald;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);	
+	font-weight: 500px;			 
+}
+
+.about {
+	background: #eee;
+	padding-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.abouttext {
+	text-align: center;
+	width: 50%;
+	padding-bottom: 5%;
+}
+
+.abouttext h2 {
+	font-family: Oswald;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);	
+	font-weight: 500px;	
+}
+
+#line2 {
+	border-color: black;
+	width: 50%;
+}
+
+.employees {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.engineer {
+	width: 15%;
+}
+
+.engineer img {
+	max-height: 75%;
+	max-width: 75%;
+	height: 150px;
+	width: 150px;
+}
+
+.engineer h3 {
+	font-family: Oswald;
+}
+
+.engineer h4 {
+	opacity: 0.5;
+}
+
+.engineer button {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	width: 100%;
+	transition-duration: 0.4s
+}
+
+.engineer button:hover {
+	opacity: 0.5;
+}
+
+.start {
+	background: #eee;
+	padding-top: 15%;
+}
+
+.startcontact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5%;
+}
+
+.startcontact h2 {
+	font-family: Oswald;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);	
+	font-weight: 500px;
+}
+
+.startcontact p {
+	font-family: Oswald;
+	font-size: 15px;
+}
+
+#line3 {
+	border-color: black;
+	width: 50%;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.message input {
+	margin-top: 1%;
+}
+
+.bottom {
+	background: black;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background: black;
+}
+
+.footer a {
+	padding-right: 1%;
+	text-decoration: none !important;
+	color: white;
+}
+
+.copy {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1%;
+	background: black;
+	color: white;
+}
+
+.startcontact button {
+	margin-top: 1%;
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	transition-duration: 0.4s
+}
+
+.startcontact button:hover {
+	opacity: 0.5;
+}
