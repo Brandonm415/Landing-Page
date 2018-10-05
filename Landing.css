@@ -35,7 +35,7 @@ html {
 
 section.pricing {
   background: #eee;
-  margin-top: 25%;
+  margin-top: 15%;
   padding: 5%;
 }
 
@@ -146,10 +146,9 @@ section.pricing {
 }
 
 .engineer img {
-	max-height: 75%;
-	max-width: 75%;
-	height: 150px;
-	width: 150px;
+	max-height: 100%;
+	max-width: 100%;
+	height: 250px;
 }
 
 .engineer h3 {
